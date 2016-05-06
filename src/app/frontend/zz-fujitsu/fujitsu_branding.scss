@@ -12,3 +12,24 @@
     padding-top: 6px;
   }
 }
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+    background-color: #e7141b;
+}
+
+.md-toolbar-tools h2{
+    margin: 4px 0 0;
+}
+
+.md-toolbar-tools a{
+    margin: -5px 0 0;
+}
+
+md-icon.md-default-theme.md-warn, md-icon.md-warn,
+.kd-replicationcontroller-card-error{
+   color: #E52222;
+}
+
+.md-fab.kd-replicationcontroller-deploy{
+    background-color: #E52222;
+}
